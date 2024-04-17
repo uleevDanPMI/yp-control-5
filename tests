@@ -1,0 +1,15 @@
+
+
+import org.junit.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+public class PaymentByHourTest {
+
+    @org.junit.jupiter.api.Test
+    @Test
+    void payOnHours() {
+        PaymentByHourTest paymentByHour = new PaymentByHourTest();
+        assert
+    }
+}
