@@ -1,0 +1,7 @@
+public abstract class Abstrct {
+    
+    abstract void Find(array[] Bs, int n);
+   
+}
+
+}

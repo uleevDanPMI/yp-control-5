@@ -1,0 +1,24 @@
+/**
+ * класс бс наследует класс абстракт 
+ * в классе бс содержиться имя отдела
+ * 
+ */
+
+class Bs extends Abstrct {
+    private String name;
+
+    public String getName() {
+        return name;
+         private String name;
+
+    public void setName(String name) {  //поле name для наименования отдела
+        this.name = name;
+    }
+
+    @Override // метод find
+    public void Find(Object[] objects, int n)
+    {
+        System.out.println(Find);
+    }
+ }
+    }

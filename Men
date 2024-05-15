@@ -1,0 +1,20 @@
+/** 
+ * здесь  не сделана запись в файл :(
+ */
+class Men extends Bs {
+    private String fio;
+
+    public String getFio() {
+        return fio;
+    }
+
+    public void setFio(String fio) {
+        this.fio = fio;
+    }
+
+    @Override
+    public void Vvesti(Object[] objects) {
+        
+        System.out.println(vvesti);
+    }
+}

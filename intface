@@ -1,0 +1,41 @@
+/** 
+ * @author uleev daniel
+ * интерфейс реализует метод ввести ,в котором вводятся обьекты класса Men и Bs метод принимает на вход строку данных и перевдит её в массив элементов
+ * так же он выводит обьекты Men и Bs .
+ */
+ import java.util.Scanner;
+ public interface Intface {
+    @Override
+    public void Vvesti(int count) {
+        Bs[] arrayBs = new Bs[count];
+        Men[] arrayMen = new Men[count];
+        QuantityOfBs= in.nextInt;
+         QuantityOfMen= in.nextInt;
+        
+        
+
+        
+        }
+        String[] input Bs = in.nextLine().split(" ");
+        int[] Bs = Arrays.stream(inputA).mapToInt(String ::parseStr).toArray();
+
+       
+        System.out.println("Bs:");
+        for (Bs obj : arrayBs) {
+            obj.display();
+        }
+
+        
+        
+             String[] input Men = in.nextLine().split(" ");
+        int[] Men = Arrays.stream(inputA).mapToInt(String ::parseStr).toArray();
+        }
+
+        
+        System.out.println("Men:");
+        for (Men obj : arrayMen) {
+            obj.display();
+        }
+    }
+
+        
